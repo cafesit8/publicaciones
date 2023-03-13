@@ -5,13 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/publicaciones/",
-  resolve: {
-    alias: {
-      "~": path.resolve(__dirname, "node_modules"),
-      "@": path.resolve(__dirname, "src"),
-    },
-  },
   build: {
-    chunkSizeWarningLimit: 1600,
+    chunkSizeWarningLimit: 1000000,
   },
 })
