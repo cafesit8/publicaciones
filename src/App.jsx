@@ -6,7 +6,7 @@ import { CreatePublication } from "./pages/CreatePublication";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Publication />} />
+      <Route path="/publicaciones" element={<Publication />} />
       <Route path="/createPublication" element={<CreatePublication />} />
     </Routes>
   );
