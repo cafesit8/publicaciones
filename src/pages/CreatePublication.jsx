@@ -32,7 +32,7 @@ export function CreatePublication() {
       const elements = data;
       // console.log({ ...elements, url: url });
       uploadInfo({ ...elements, img: url });
-      navigate("/");
+      navigate("/publicaciones");
     } catch (error) {
       console.log(error);
     }
